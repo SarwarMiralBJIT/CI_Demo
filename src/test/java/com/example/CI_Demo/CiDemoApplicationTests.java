@@ -9,12 +9,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 class CiDemoApplicationTests {
-
 	static Logger logger = LoggerFactory.getLogger(CiDemoApplicationTests.class);
-
 	@Test
 	void contextLoads() {
 		logger.info("It's a test class");
+		assertEquals(true, true);
+	}
+
+	@Test
+	void demoTest() {
+		logger.info("It's a second test");
 		assertEquals(true, true);
 	}
 }
