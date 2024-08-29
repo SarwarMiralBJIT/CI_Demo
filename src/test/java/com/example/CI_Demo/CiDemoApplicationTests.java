@@ -21,4 +21,10 @@ class CiDemoApplicationTests {
 		logger.info("It's a second test");
 		assertEquals(true, true);
 	}
+
+	@Test
+	void demoThirdTest() {
+		logger.info("It's a third test");
+		assertEquals(true, true);
+	}
 }
